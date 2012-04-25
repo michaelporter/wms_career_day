@@ -6,7 +6,7 @@ function navScroll(elem, dest) {
 	$(elem).click(function(){
 		var destx = "";
 		destx = getCoords(dest);
-		$('#content').animate({top: '-'+destx}, 350); // must animate negative, though positions are postitive
+		$('#content').animate({top: '-'+destx}, 350); // must animate negative, though these positions come in postitive
 		return false;
 	});
 };
@@ -15,7 +15,6 @@ function movepane(elem, dest, setting) {
 	$(elem).click(function(){
 		var winwidth = $(window).width();
 		var winheight = $(window).height();
-		//alert(winheight);
 	
 		if (setting == 1) {
 			$('#container').scrollTo(dest, {duration:500, queue:true, axis: 'yx'});
