@@ -1,3 +1,35 @@
 So, this is my web presentation for my old middle school's career day, in which I will talk about what it's like to switch careers (and pretend that I have successfully done so already).
 
 It uses the scrollTo() JQuery plugin, as well as the Less CSS framework, and I am praying to Google that the school has a browser other than IE on their computers...but the styling should work nonetheless. It uses an Apple-like black linen for it's main background, because it makes it really easy to look like I know what I'm doing in a really short amount of time. At least to a bunch of 8th graders.
+
+Okay, so here's the outline:
+
+
+Pane 1: What is a Web Developer?
+
+Pane 2: Websites have two layers: the front, and the back;
+
+Pane 3: The front is built by designers; it's what you look at, and what shows the user where to go  
+
+Pane 4: The back is built by developers; it's what changes the design based on what's happening; it tells the website where to go.
+	It can swap out parts of the design for other parts;
+	(Here is where the image of the website coming together will go)
+
+Pane 4.5: Web sites are really just a bunch of files that connect to each other; they're stored on a computer called a server, which can be thousands of miles away from the user's computer
+
+Pane 4.7: Because these files are written with programming languages, they can put logic behind how a website responds to users
+
+Pane 5: Many languages are used; PHP, Python, Ruby, Java, and others; they run on the server computer
+
+Pane 6: Examples of sites with development, and sites without.
+	With: Google, YouTube, Tumblr, Amazon, and all news sites (content management), anything you can log in to
+	Without: Most personal websites (including this one!), but not much else.
+
+Pane 7: So what do I actually do?
+	Show a text editor
+
+
+What should I be answering?  
+	How to become a developer
+	expected wage?
+	what tools are there
