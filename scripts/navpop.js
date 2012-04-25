@@ -21,16 +21,3 @@ function navHighlight(elem, ofclass, newclass) {
 
 	});
 };
-
-function getCoords(item) {
-	return $(item).position().top;
-};
-
-function navScroll(elem, dest) {
-	$(elem).click(function(){
-		var destx = "";
-		destx = getCoords(dest);
-		$('#content').animate({top: '-'+destx}, 350); // must animate negative, though positions are postitive
-		return false;
-	});
-};
