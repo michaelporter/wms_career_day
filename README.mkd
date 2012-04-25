@@ -1,0 +1,4 @@
+So, this is my web presentation for my old middle school's career day, in which I will talk about what it's like to switch careers (and pretend that I have successfully done so already).  
+
+It uses the scrollTo() JQuery plugin, as well as the Less CSS framework, and I am praying to Google that the school has a browser other than IE on their computers...but the styling should work nonetheless.
+
