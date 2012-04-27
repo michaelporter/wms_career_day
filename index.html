@@ -15,30 +15,6 @@
 
 <body id="container">
 
-<!--
-	//So here's what I do: make a big ol' list, float 'em, and leave some of them blank, but all are the same size; 
-	//Set up a path of links so that none crosses another's path, but also make it clear that things are indeed moving;
-	// this might require a little bit of texture; perhaps some kind of patchwork would be nice.
-
-	// set each to the width of the screen!!  $(obj).css('width', $(window).width); I think!
-
-	// between some of the boxes are transition boxes, with transition designs...arrows and such
-
-
-	// Items:
-		Started on the spotlight at WMS
-		Acted in HS, at Fenwick
-		Went into lighting design at Bard, ran the student theater
-		Studied Lit, but couldn't stop finding new hobbies, even when writing senior project
-		Did some freelance Lighting design(Lighting design pictures, for sure)
-		Programming and electronics became a huge fascination for me in college
-		Went to Steppenwolf, wasn't happy with the career opportunities ahead of me
-		Now pursuing a career in web development, self-teaching, and teaching lessons on the side
-
-		ACTUALLY: Probably better to just talk about the lighting and career transfer, and then move to this for the
-		strictly web dev part
-	-->
-
 	<ul class="elements">
 		<li>
 			<div id="firstpane">
@@ -56,6 +32,7 @@
 
 		<li>
 			<div id="secondpane">
+				<br />
 				<h2 class="bigtext">Websites have a front side:</h2><br /> <br /><h2 class="bigtext">what you're looking at right now</h2>
 				<p class="centerbottom2"><a href="#" id="second" class="right"><img src="./images/arrow1.png"/></a></p>
 			</div>
@@ -87,7 +64,7 @@
 
 		<li>
 			<div id="fourthpane">
-				<h2 class="bigtext" style="line-height:1.4em;">Designers build the part you look at using HTML, CSS, and Javascript (among others!)</h2>
+				<h2 class="bigtext" style="line-height:1.4em; font-size:5.5em;">Designers build the part you look at using HTML, CSS, and Javascript (among others!)</h2>
 				<p class="basiccenter"><a href="#" id="fourth" class="left"><img src="./images/arrow1.png"/></a></p>
 			</div>
 		</li>
@@ -170,7 +147,7 @@
 		<li>
 			<div id="fourteenthpane">
 				<h1 class="centercenter">Curiosity</h1><h2 class="bigtext"></h2>
-				<p class="centerbottom" style="top:60%;"><a href="#" id="fourteenth" class="left"><img src="./images/arrow1.png"/></a></p>
+				<p class="centerbottom" style="top:55%;"><a href="#" id="fourteenth" class="left"><img src="./images/arrow1.png"/></a></p>
 			</div>
 		</li>
 
@@ -355,7 +332,7 @@
 
 		<li>
 			<div id="fifteenthpane">
-				<h2 class="bigtext">A desire to make the world <u>more interesting</u> today than it was yesterday.</h><h2 class="bigtext"></h2>
+				<h2 class="bigtext">A desire to make the world <u>more interesting</u> today than it was yesterday.</h2>
 				<p class="centerbottom2"><a href="#" id="fifteenth" class="left"><img src="./images/arrow1.png"/></a></p>
 			</div>
 		</li>
@@ -388,25 +365,14 @@
 
 		<li>
 			<div id="seventeenthpane">
-				<h2 class="bigtext">Well.</h><h2 class="bigtext"></h2><h2 class="bigtext">That's a start.</h2>
-				<p class="centerbottom2"><a href="#" id="seventeenth" class="left"><img src="./images/arrow1.png"/></a></p>
+				<h1 class="centercenter">Well.</h1><h1 class="centercenter">That's a start.</h1>
+				<!--<p class="centerbottom"><a href="#" id="seventeenth" class="left"><img src="./images/arrow1.png"/></a></p>-->
 			</div>
 		</li>
 
 
 
 	</ul>
-
-
-
-
-
-
-
-
-
-
-
 
 	<script>
 		$(document).ready(function(){
@@ -415,9 +381,9 @@
 			movepane('#second', '#thirdpane', 1);
 			movepane('#third', '#fourthpane', 2);
 			movepane('#fourth', '#fifthpane', 2);
-			movepane('#fifth', '#sixthpane', 2);
-			movepane('#sixth', '#seventhpane', 2);
-			movepane('#seventh', '#eigthpane', 2);
+			movepane('#fifth', '#sixthpane', 1);
+			movepane('#sixth', '#seventhpane', 3);
+			movepane('#seventh', '#eigthpane', 1);
 			movepane('#eigth', '#ninthpane', 2);
 			movepane('#ninth', '#tenthpane', 1);
 			movepane('#tenth', '#eleventhpane', 2);

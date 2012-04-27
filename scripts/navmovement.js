@@ -30,8 +30,11 @@ function movepane(elem, dest, setting) {
 				'height': winheight
 			}, 100);
 		} else if (setting == 3) {
-
-
+			$('#container').scrollTo(dest, {duration:500, queue:true, axis:'xy'});
+			$(dest).animate({
+				'width': winwidth,
+				'height': winheight
+			}, 100);
 		}
 		return false;
 	});
